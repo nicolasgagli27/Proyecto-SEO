@@ -1,0 +1,359 @@
+/*BOOTSTRAP E INDEX*/
+
+body {
+    margin: 0;
+    font-family: 'Mate SC', serif;
+    height: 800px;
+}
+
+
+
+.bg {
+    background-color:lightseagreen;
+    opacity: 70%;
+}
+
+.estiloco {
+    font-size: 35px;
+    font-family: 'Mate SC', serif;
+    
+}
+
+
+
+.HOLA {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightseagreen;
+    color: cornsilk;
+    padding: 50px;
+    height: 200px;
+    font-family: 'Mate SC', serif;
+    
+}
+
+
+.redes{
+  display: grid;
+  margin-bottom: 10px;
+}
+
+.puro{
+    display: grid;
+    margin-bottom: 10px;
+}
+
+.footer a{
+    font-weight: 1000;
+    font-size: 25px;
+    font-family: 'Mate SC', serif;
+    text-decoration: none;
+    color:crimson;
+}
+
+.footer a:hover{
+    opacity: 0.8;
+}
+
+.footer a .fab{
+    font-size: 20px;
+    width: 25px;
+    
+}
+
+.direc{
+    font-weight: 1000;
+    font-size: 25px;
+    font-family: 'Mate SC', serif;
+    color:crimson;
+}
+
+.direccion{
+    display: grid;
+    margin-bottom: 30px; 
+}
+
+
+
+/*NOSOTROS*/
+
+.grid > .quienessomos
+    .grid > .puro
+    .grid > .fondoquienes
+    {background-image:linear-gradient(to right, #434343 0%, black 100%);
+        padding: 20px;
+        margin: 1px solid black;}
+
+    .grid >.fondoquienes{
+            grid-column: span 3;
+           }
+
+
+.fondoquienes{
+    height: 1000px;
+   background:burlywood;
+}
+
+
+
+.nos{
+    background-image: url("./Fotos/fondosobre.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Mate SC', serif;
+    font-size: 70px;
+    font-weight:200;
+    text-align:left;
+    list-style-type: none;
+    padding-top: 0px;
+    padding-left: 10px;
+    display: grid;
+
+}
+
+.quienessomos{
+    display: grid;
+    justify-content: left;
+    font-family: 'Mate SC', serif;
+    font-weight: 200;
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 150px;
+    padding: 50px;
+    width: 1000px;
+}
+
+
+
+
+.descripción{
+    display: grid;
+    justify-content: left;
+    font-family: 'Mate SC', serif;
+    font-weight: 400;
+    font-size: 30px;
+    direction:ltr;
+    padding-top: 10px;
+    padding-bottom: 200px;
+    padding: 50px;
+}
+
+
+
+
+/*PRODUCTOS*/
+
+
+.grid >.fondoproductos{
+    grid-column:span 4;
+}
+
+
+.productos{
+    display: grid;
+    background-image: url("./Fotos/fondoproductos.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Mate SC', serif;
+    font-size: 70px;
+    font-weight:200;
+    text-align:right;
+    list-style-type: none;
+    padding-right: 50px;
+    }
+
+
+
+.fondoproductos{
+   height: 1000px;
+   background:burlywood;
+}
+
+.muñeco{
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    }
+
+.almohadón{
+   position: absolute;
+   top: 400px;
+   left: 800px;
+}
+
+.servilletas{
+    position: absolute;
+    top: 400px;
+    left: 1200px; 
+}
+
+.tazas{
+    position: absolute;
+    top: 800px;
+    left: 400px; 
+}
+
+.arreglofloral{
+   position: absolute;
+   top: 800px;
+   left: 800px;
+}
+
+.estrellas{
+   position: absolute;
+   top: 800px;
+   left: 1200px;
+}
+
+/*SERVICIOS*/
+
+.grid > .fondoservicios{
+    grid-column: span 4;
+    height: 1000px;
+    background: burlywood;
+}
+
+.servicios{
+    background-image: url("./Fotos/fondoservicios.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Mate SC', serif;
+    font-size: 70px;
+    font-weight:200;
+    text-align:left;
+    list-style-type: none;
+    padding-left: 50px ;
+}
+
+.ofrecemos{
+    font-family: 'Mate SC', serif;
+    font-weight: 200;
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: center;
+    width: 1000px;
+    padding-top: 100px;
+}
+
+.ofrecimientos{
+    font-family: 'Mate SC', serif;
+    font-weight: 200;
+    font-size: 50px;
+    text-align:left;
+    width: 1000px;
+    padding-top: 80px;
+    padding-bottom: 200px;
+    padding-right: 0px;
+    padding-left: 100px
+}
+
+/*CONTACTO*/
+
+.contacto{   
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+
+.grid > .fondocontacto{
+    grid-column: span 4;
+} 
+
+.fondocontacto{
+    height: 1000px;
+    background: burlywood;
+}
+
+.contactoencabezado{
+    background-image: url("./Fotos/fondocontacto.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 70px;
+    font-weight:200;
+    text-align:right;
+    list-style-type: none;
+    font-family: 'Mate SC', serif;
+    padding-right: 50px;
+}
+
+.textocontacto{
+    font-family: 'Mate SC', serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+label{
+    font-family: 'Mate SC', serif;
+    line-height: 50px;
+}
+
+.escribasumensaje{
+    padding: 5px;
+    width: 100%;
+    height: 50%;
+    
+}
+
+.enviarmensaje{
+    padding: 10px 20px;
+    font-family: 'Mate SC', serif;
+    font-size: 15px;
+    
+}
+
+.limpiar{
+    padding: 10px 20px;
+    font-family: 'Mate SC', serif;
+    font-size: 15px;
+}
+
+
+/*TRANSFORMACIÓN Y ANIMACIÓN*/  
+
+@keyframes efecto{
+    0% /*inicio*/{
+    }
+
+    50%{transform: translateX(100px);
+        }
+
+    
+    100% /*punto final*/{
+    }
+}
+
+
+.quienessomos, .ofrecemos{
+    animation-name: efecto;
+    animation-iteration-count:inherit;
+    animation-duration: 2s;
+    animation-timing-function: ease-in (cubic-bezier(0.645, 0.045, 0.355, 1));
+
+}
+
+footer i:hover {
+    animation-name: rotador;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite; }
+
+@keyframes rotador {
+    from {
+      transform: rotate(0deg); }
+    to {
+      transform: rotate(360deg); } }
+
+
+main div img:hover {
+    transform: scale(1.1);
+    transition: transform 0.8s; }
+
+nav div img:hover {
+    transform: scale(1.1);
+    transition: transform 0.8s; }
